@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-hero-container">
           <div className="about-hero-image">
             <div className="image-circle">
-              <img src="/src/assets/about-profile.png" alt="Profile" />
+              <img src="/assets/about-profile.png" alt="Profile" />
             </div>
             <div className="hero-decoration"></div>
           </div>
@@ -50,16 +50,16 @@ const About = () => {
               
               <div className="contact-links">
                 <a href="https://www.linkedin.com/in/nirjala-thapa-a6a923258/" target="_blank" rel="noopener noreferrer" className="contact-link linkedin" title="LinkedIn">
-                  <img src="/src/assets/linkedin-icon.png" alt="LinkedIn" />
+                  <img src="/assets/linkedin-icon.png" alt="LinkedIn" />
                 </a>
                 <a href="mailto:nirjalathapaaa@gmail.com" className="contact-link gmail" title="Email">
-                  <img src="/src/assets/gmail-icon.png" alt="Email" />
+                  <img src="/assets/gmail-icon.png" alt="Email" />
                 </a>
                 <a href="https://www.instagram.com/miss_nirjalaaaa?utm_source=qr&igsh=MXRnNXZiY2wwaGQ0eQ==" target="_blank" rel="noopener noreferrer" className="contact-link instagram" title="Instagram">
-                  <img src="/src/assets/instagram-icon.png" alt="Instagram" />
+                  <img src="/assets/instagram-icon.png" alt="Instagram" />
                 </a>
                 <a href="https://github.com/tnirjala" target="_blank" rel="noopener noreferrer" className="contact-link github" title="GitHub">
-                  <img src="/src/assets/git-icon.png" alt="GitHub" />
+                  <img src="/assets/git-icon.png" alt="GitHub" />
                 </a>
               </div>
             </div>
@@ -72,7 +72,7 @@ const About = () => {
   <div className="about-container">
     <div className="section-header">
       <div className="icon-wrapper education-icon">
-        <img src="/src/assets/education-icon.png" alt="Education" />
+        <img src="/assets/education-icon.png" alt="Education" />
       </div>
       <h2>Education</h2>
     </div>
@@ -80,7 +80,7 @@ const About = () => {
     <div className="education-grid">
       <div className="education-card">
         <div className="edu-logo">
-          <img src="/src/assets/university-logo.png" alt="University" />
+          <img src="/assets/university-logo.png" alt="University" />
         </div>
         <div className="edu-details">
           <div className="edu-year">2021 - 2026</div>
@@ -92,7 +92,7 @@ const About = () => {
 
       <div className="education-card">
         <div className="edu-logo">
-          <img src="/src/assets/school-logo.png" alt="School" />
+          <img src="/assets/school-logo.png" alt="School" />
         </div>
         <div className="edu-details">
           <div className="edu-year">2018 - 2020</div>
@@ -110,7 +110,7 @@ const About = () => {
         <div className="about-container">
           <div className="section-header">
             <div className="icon-wrapper experience-icon">
-              <img src="/src/assets/experience-icon.png" alt="Experience" />
+              <img src="/assets/experience-icon.png" alt="Experience" />
             </div>
             <h2>Experience</h2>
           </div>
@@ -148,7 +148,7 @@ const About = () => {
         <div className="about-container">
           <div className="section-header">
             <div className="icon-wrapper interests-icon">
-              <img src="/src/assets/interests-icon.png" alt="Interests" />
+              <img src="/assets/interests-icon.png" alt="Interests" />
             </div>
             <h2>Beyond Code</h2>
           </div>
@@ -156,21 +156,21 @@ const About = () => {
           <div className="interests-grid">
             <div className="interest-card">
               <div className="interest-icon">
-                <img src="/src/assets/travelling.jpg" alt="Travelling" />
+                <img src="/assets/travelling.jpg" alt="Travelling" />
               </div>
               <h3>Travelling</h3>
             </div>
 
             <div className="interest-card">
               <div className="interest-icon">
-                <img src="/src/assets/storytelling.png" alt="Storytelling" />
+                <img src="/assets/storytelling.png" alt="Storytelling" />
               </div>
               <h3>StoryTelling</h3>
             </div>
 
             <div className="interest-card">
               <div className="interest-icon">
-                <img src="/src/assets/yoga.jpg" alt="Yoga" />
+                <img src="/assets/yoga.jpg" alt="Yoga" />
               </div>
               <h3>Yoga</h3>
             </div>
