@@ -1,0 +1,170 @@
+/* ==================== FOOTER ==================== */
+.footer {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #333;
+}
+
+.footer-left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.footer-left h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0a3d3a;
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+}
+
+.footer-left p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+  font-weight: 500;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-right h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0a3b38;
+  margin: 0 0 2rem 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateX(-5px);
+}
+
+.contact-item span {
+  font-size: 1rem;
+  color: #202020;
+  font-weight: 500;
+  min-width: 80px;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+  transform: scale(1.1);
+}
+
+.contact-icon.github {
+  background-color: #F9D56E;
+}
+
+.contact-icon.linkedin {
+  background-color: #4DB8AC;
+}
+
+.contact-icon.gmail {
+  background-color: #FF8566;
+}
+
+.contact-icon img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer-bottom p {
+  font-size: 0.95rem;
+  color: #0e0d0d;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer {
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer-left {
+    max-width: 100%;
+  }
+
+  .footer-left h2 {
+    font-size: 2rem;
+  }
+
+  .footer-right {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .contact-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-left h2 {
+    font-size: 1.8rem;
+  }
+
+  .footer-left p {
+    font-size: 0.95rem;
+  }
+
+  .contact-item span {
+    font-size: 0.95rem;
+    min-width: 70px;
+  }
+
+  .contact-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.85rem;
+  }
+}
