@@ -27,7 +27,11 @@ const Home = () => {
           {/* Right Side - Image */}
           <div className="hero-right">
             <div className="hero-image-container">
-            <img src={getImagePath('assets/hero-image.jpg')} alt="Nirjala" />
+              <img 
+                src="/my-portfolio/assets/hero-image.png" 
+                alt="Nirjala" 
+                className="hero-image"
+              />
               
               {/* Speech Bubble */}
               <div className="speech-bubble">
@@ -35,7 +39,7 @@ const Home = () => {
                 <div className="small-avatar">
                   {/* Small circular avatar - same image */}
                   <img 
-                    src="/assets/hero-bubble.jpg" 
+                    src="/my-portfolio/assets/hero-bubble.jpg" 
                     alt="Avatar" 
                   />
                 </div>
@@ -53,7 +57,7 @@ const Home = () => {
             <div className="help-item">
               <div className="help-icon teal">
                 {/* Add your icon image here */}
-                <img src="/assets/ui-ux-icon.png" alt="UI/UX Design" />
+                <img src="/my-portfolio/assets/ui-ux-icon.png" alt="UI/UX Design" />
               </div>
               <div className="help-text">
                 <h3>UI / UX Design</h3>
@@ -63,7 +67,7 @@ const Home = () => {
 
             <div className="help-item">
               <div className="help-icon yellow">
-                <img src="/assets/responsive-icon.png" alt="Responsive Websites" />
+                <img src="/my-portfolio/assets/responsive-icon.png" alt="Responsive Websites" />
               </div>
               <div className="help-text">
                 <h3>Responsive Websites</h3>
@@ -73,7 +77,7 @@ const Home = () => {
 
             <div className="help-item">
               <div className="help-icon orange">
-                <img src="/assets/interactive-icon.png" alt="Interactive Experiences" />
+                <img src="/my-portfolio/assets/interactive-icon.png" alt="Interactive Experiences" />
               </div>
               <div className="help-text">
                 <h3>Interactive Experiences</h3>
@@ -104,61 +108,61 @@ const Home = () => {
       {/* First set */}
       <div className="toolbox-item">
         <div className="toolbox-icon html">
-          <img src="/assets/html-icon.png" alt="HTML" />
+          <img src="/my-portfolio/assets/html-icon.png" alt="HTML" />
         </div>
         <p>HTML</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon css">
-          <img src="/assets/css-icon.png" alt="CSS" />
+          <img src="/my-portfolio/assets/css-icon.png" alt="CSS" />
         </div>
         <p>CSS</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon js">
-          <img src="/assets/js-icon.png" alt="JavaScript" />
+          <img src="/my-portfolio/assets/js-icon.png" alt="JavaScript" />
         </div>
         <p>JavaScript</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon react">
-          <img src="/assets/react-icon.png" alt="React" />
+          <img src="/my-portfolio/assets/react-icon.png" alt="React" />
         </div>
         <p>React</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon node">
-          <img src="/assets/node-icon.png" alt="Node" />
+          <img src="/my-portfolio/assets/node-icon.png" alt="Node" />
         </div>
         <p>Node</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon dotnet">
-          <img src="/assets/dotnet-icon.png" alt=".NET" />
+          <img src="/my-portfolio/assets/dotnet-icon.png" alt=".NET" />
         </div>
         <p>.NET</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon sql">
-          <img src="/assets/sql-icon.png" alt="SQL" />
+          <img src="/my-portfolio/assets/sql-icon.png" alt="SQL" />
         </div>
         <p>SQL</p>
       </div>
         <div className="toolbox-item">
         <div className="toolbox-icon figma">
-          <img src="/assets/figma-icon.png" alt="Figma" />
+          <img src="/my-portfolio/assets/figma-icon.png" alt="Figma" />
         </div>
         <p>Figma</p>
       </div>
        <div className="toolbox-item">
         <div className="toolbox-icon git">
-          <img src="/assets/git-icon.png" alt="Git" />
+          <img src="/my-portfolio/assets/git-icon.png" alt="Git" />
         </div>
         <p>Git</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon vercel">
-          <img src="/assets/vercel-icon.png" alt="Vercel" />
+          <img src="/my-portfolio/assets/vercel-icon.png" alt="Vercel" />
         </div>
         <p>Vercel</p>
       </div>
@@ -166,61 +170,61 @@ const Home = () => {
       {/* Duplicate set for infinite scroll */}
       <div className="toolbox-item">
         <div className="toolbox-icon html">
-          <img src="/assets/html-icon.png" alt="HTML" />
+          <img src="/my-portfolio/assets/html-icon.png" alt="HTML" />
         </div>
         <p>HTML</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon css">
-          <img src="/assets/css-icon.png" alt="CSS" />
+          <img src="/my-portfolio/assets/css-icon.png" alt="CSS" />
         </div>
         <p>CSS</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon js">
-          <img src="/assets/js-icon.png" alt="JavaScript" />
+          <img src="/my-portfolio/assets/js-icon.png" alt="JavaScript" />
         </div>
         <p>JavaScript</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon react">
-          <img src="/assets/react-icon.png" alt="React" />
+          <img src="/my-portfolio/assets/react-icon.png" alt="React" />
         </div>
         <p>React</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon node">
-          <img src="/assets/node-icon.png" alt="Node" />
+          <img src="/my-portfolio/assets/node-icon.png" alt="Node" />
         </div>
         <p>Node</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon dotnet">
-          <img src="/assets/dotnet-icon.png" alt=".NET" />
+          <img src="/my-portfolio/assets/dotnet-icon.png" alt=".NET" />
         </div>
         <p>.NET</p>
       </div>
       <div className="toolbox-item">
         <div className="toolbox-icon sql">
-          <img src="/assets/sql-icon.png" alt="SQL" />
+          <img src="/my-portfolio/assets/sql-icon.png" alt="SQL" />
         </div>
         <p>SQL</p>
       </div>
        <div className="toolbox-item">
         <div className="toolbox-icon figma">
-          <img src="/assets/figma-icon.png" alt="Figma" />
+          <img src="/my-portfolio/assets/figma-icon.png" alt="Figma" />
         </div>
         <p>Figma</p>
       </div>
        <div className="toolbox-item">
         <div className="toolbox-icon git">
-          <img src="/assets/git-icon.png" alt="Git" />
+          <img src="/my-portfolio/assets/git-icon.png" alt="Git" />
         </div>
         <p>Git</p>
       </div>
        <div className="toolbox-item">
         <div className="toolbox-icon vercel">
-          <img src="/assets/vercel-icon.png" alt="Vercel" />
+          <img src="/my-portfolio/assets/vercel-icon.png" alt="Vercel" />
         </div>
         <p>Vercel</p>
       </div>
@@ -238,21 +242,21 @@ const Home = () => {
     <div className="project-card design" onClick={() => window.location.href = '#design-projects'}>
       <h3>Design Concepts</h3>
       <div className="project-card-image">
-        <img src="/assets/design-preview.png" alt="Design Concepts" />
+        <img src="/my-portfolio/assets/design-preview.png" alt="Design Concepts" />
       </div>
     </div>
 
     <div className="project-card frontend" onClick={() => window.location.href = '#frontend-projects'}>
       <h3>Frontend Builds</h3>
       <div className="project-card-image">
-        <img src="/assets/frontend-preview.png" alt="Frontend Builds" />
+        <img src="/my-portfolio/assets/frontend-preview.png" alt="Frontend Builds" />
       </div>
     </div>
 
     <div className="project-card fullstack" onClick={() => window.location.href = '#fullstack-projects'}>
       <h3>Full Web Apps</h3>
       <div className="project-card-image">
-        <img src="/assets/fullstack-preview.png" alt="Full Web Apps" />
+        <img src="/my-portfolio/assets/fullstack-preview.png" alt="Full Web Apps" />
       </div>
     </div>
   </div>

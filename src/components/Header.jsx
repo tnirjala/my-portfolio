@@ -92,15 +92,15 @@ const Header = () => {
           {isContactOpen && (
             <div className="contact-dropdown">
               <a href="https://github.com/tnirjala" target="_blank" rel="noopener noreferrer" className="contact-dropdown-item">
-                <img src="/src/assets/git-icon.png" alt="GitHub" />
+                <img src="/my-portfolio/assets/git-icon.png" alt="GitHub" />
                 <span>GitHub</span>
               </a>
               <a href="https://www.linkedin.com/in/nirjala-thapa-a6a923258/" target="_blank" rel="noopener noreferrer" className="contact-dropdown-item">
-                <img src="/src/assets/linkedin-icon.png" alt="LinkedIn" />
+                <img src="/my-portfolio/assets/linkedin-icon.png" alt="LinkedIn" />
                 <span>LinkedIn</span>
               </a>
               <a href="mailto:nirjalathapaaa@gmail.com" className="contact-dropdown-item">
-                <img src="/src/assets/gmail-icon.png" alt="Gmail" />
+                <img src="/my-portfolio/assets/gmail-icon.png" alt="Gmail" />
                 <span>Gmail</span>
               </a>
             </div>

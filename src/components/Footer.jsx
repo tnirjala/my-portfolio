@@ -17,21 +17,21 @@ const Footer = () => {
             <a href="https://github.com/tnirjala" className="contact-item" target="_blank" rel="noopener noreferrer">
               <span>Github</span>
               <div className="contact-icon github">
-                <img src="/assets/git-icon.png" alt="Github" />
+                <img src="/my-portfolio/assets/git-icon.png" alt="Github" />
               </div>
             </a>
 
             <a href="https://www.linkedin.com/in/nirjala-thapa-a6a923258/" className="contact-item" target="_blank" rel="noopener noreferrer">
               <span>LinkedIn</span>
               <div className="contact-icon linkedin">
-                <img src="/assets/linkedin-icon.png" alt="LinkedIn" />
+                <img src="/my-portfolio/assets/linkedin-icon.png" alt="LinkedIn" />
               </div>
             </a>
 
             <a href="mailto:nirjalathapaaa@gmail.com" className="contact-item">
               <span>Gmail</span>
               <div className="contact-icon gmail">
-                <img src="/assets/gmail-icon.png" alt="Gmail" />
+                <img src="/my-portfolio/assets/gmail-icon.png" alt="Gmail" />
               </div>
             </a>
           </div>
