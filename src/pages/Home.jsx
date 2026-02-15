@@ -27,11 +27,7 @@ const Home = () => {
           {/* Right Side - Image */}
           <div className="hero-right">
             <div className="hero-image-container">
-              <img 
-                src="/assets/hero-image.png" 
-                alt="Nirjala" 
-                className="hero-image"
-              />
+            <img src={getImagePath('assets/hero-image.jpg')} alt="Nirjala" />
               
               {/* Speech Bubble */}
               <div className="speech-bubble">
