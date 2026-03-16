@@ -149,10 +149,10 @@
   gap: 0.7rem;
   background-color: #2f7f7A;
   color: #ffffff;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 10px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(47, 127, 122, 0.2);
@@ -192,6 +192,10 @@
 
 .contact-link.gmail {
   background-color: #EA4335;
+}
+
+.contact-link.youtube {
+  background-color: #ee2513;
 }
 
 .contact-link.instagram {

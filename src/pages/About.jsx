@@ -39,7 +39,7 @@ const About = () => {
             </div>
 
             <div className="hero-actions">
-              <a href="/my-portfolio/assets/resume.pdf" download className="btn-primary">
+              <a href="/my-portfolio/resume.pdf" download className="btn-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                   <polyline points="7 10 12 15 17 10"></polyline>
@@ -57,6 +57,9 @@ const About = () => {
                 </a>
                 <a href="https://www.instagram.com/miss_nirjalaaaa?utm_source=qr&igsh=MXRnNXZiY2wwaGQ0eQ==" target="_blank" rel="noopener noreferrer" className="contact-link instagram" title="Instagram">
                   <img src="/my-portfolio/assets/instagram-icon.png" alt="Instagram" />
+                </a>
+                <a href="https://www.youtube.com/@miss_nirjala" target="_blank" rel="noopener noreferrer" className="contact-link youtube" title="Youtube">
+                  <img src="/my-portfolio/assets/youtube-icon.png" alt="Youtube" />
                 </a>
                 <a href="https://github.com/tnirjala" target="_blank" rel="noopener noreferrer" className="contact-link github" title="GitHub">
                   <img src="/my-portfolio/assets/git-icon.png" alt="GitHub" />
