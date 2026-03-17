@@ -1,7 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
+import './Projects.jsx';
 
 const Home = () => {
+  const navigate = useNavigate();
+  const handleProjectClick = (category) => {
+    navigate(`/projects?category=${category}`);
+  };
   return (
     <>
     {/* Hero Section */}
@@ -56,7 +62,6 @@ const Home = () => {
           <div className="help-left">
             <div className="help-item">
               <div className="help-icon teal">
-                {/* Add your icon image here */}
                 <img src="/my-portfolio/assets/ui-ux-icon.png" alt="UI/UX Design" />
               </div>
               <div className="help-text">
@@ -232,35 +237,35 @@ const Home = () => {
   </div>
 </section>
 
-<section className="projects-section" id="projects">
-  <div className="projects-header">
-    <h2>My Projects</h2>
-    <p>Things I've worked on</p>
-  </div>
-  
-  <div className="projects-grid">
-    <div className="project-card design" onClick={() => window.location.href = '#design-projects'}>
-      <h3>Design Concepts</h3>
-      <div className="project-card-image">
-        <img src="/my-portfolio/assets/design-preview.png" alt="Design Concepts" />
-      </div>
-    </div>
-
-    <div className="project-card frontend" onClick={() => window.location.href = '#frontend-projects'}>
-      <h3>Frontend Builds</h3>
-      <div className="project-card-image">
-        <img src="/my-portfolio/assets/frontend-preview.png" alt="Frontend Builds" />
-      </div>
-    </div>
-
-    <div className="project-card fullstack" onClick={() => window.location.href = '#fullstack-projects'}>
-      <h3>Full Web Apps</h3>
-      <div className="project-card-image">
-        <img src="/my-portfolio/assets/fullstack-preview.png" alt="Full Web Apps" />
-      </div>
-    </div>
-  </div>
-</section>
+   <section className="projects-section" id="projects">
+        <div className="projects-header">
+          <h2>My Projects</h2>
+          <p>Things I've worked on</p>
+        </div>
+        
+        <div className="projects-grid">
+          <div className="project-card design" onClick={() => handleProjectClick('design')}>
+            <h3>Design Concepts</h3>
+            <div className="project-card-image">
+              <img src="/my-portfolio/assets/design-preview.png" alt="Design Concepts" />
+            </div>
+          </div>
+ 
+          <div className="project-card frontend" onClick={() => handleProjectClick('frontend')}>
+            <h3>Frontend Builds</h3>
+            <div className="project-card-image">
+              <img src="/my-portfolio/assets/frontend-preview.png" alt="Frontend Builds" />
+            </div>
+          </div>
+ 
+          <div className="project-card fullstack" onClick={() => handleProjectClick('fullstack')}>
+            <h3>Full Web Apps</h3>
+            <div className="project-card-image">
+              <img src="/my-portfolio/assets/fullstack-preview.png" alt="Full Web Apps" />
+            </div>
+          </div>
+        </div>
+      </section>
          </>
   );
 };

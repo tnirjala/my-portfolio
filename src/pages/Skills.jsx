@@ -42,9 +42,9 @@ const skillsData = [
 
 const lockedSkills = [
   { name: 'AWS',        sub: 'Cloud' },
-  { name: 'TypeScript',  sub: 'Language' },
-  { name: 'Next.js',    sub: 'Framework' },
-  { name: 'Docker',      sub: 'DevOps' },
+  { name: 'Python',  sub: 'Language' },
+  // { name: 'Next.js',    sub: 'Framework' },
+  // { name: 'Docker',      sub: 'DevOps' },
 ];
 
 const LockIcon = () => (
