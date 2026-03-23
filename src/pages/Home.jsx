@@ -101,7 +101,9 @@ const Home = () => {
               every button, menu, and animation is designed to feel natural. 
               Clean, modern layouts make your content stand out.
             </p>
-            <button className="help-btn">Know Me Better</button>
+            <button className="help-btn" onClick={() => navigate('/about')}>
+             Know Me Better
+            </button>
           </div>
         </div>
       </section>
