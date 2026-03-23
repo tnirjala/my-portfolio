@@ -51,7 +51,7 @@ const Projects = () => {
       category: "design",
       description: "Designed a VR website UI in Figma, focusing on consistent layout, typography, color balance and user experience principles",
       images: [
-        "/my-portfolio/projects/project-1.png"
+        "/my-portfolio/projects/project-1-1.png"
       ],
       techStack: ["Figma"],
       liveLink: "",
@@ -64,7 +64,7 @@ const Projects = () => {
       category: "frontend",
       description: "Responsive portfolio website built with React and modern CSS animations for smooth user interactions.",
       images: [
-        "/my-portfolio/projects/project-2.png"
+        "/my-portfolio/projects/project-2-1.png"
       ],
       techStack: ["React", "CSS3", "JavaScript"],
       liveLink: "https://tnirjala.github.io/my-portfolio/",
@@ -75,104 +75,93 @@ const Projects = () => {
       id: 3,
       title: "KiranaHub",
       category: "fullstack",
-      description: "An online portal to connect home tutor ans students.",
+      description: "An online grocery platform that enables users to browse, order and track groceries with secure authentication and an admin pannel.",
       images: [
-        "/my-portfolio/assets/project-3-1.png",
-        "/my-portfolio/assets/project-3-2.png",
-        "/my-portfolio/assets/project-3-3.png",
-        "/my-portfolio/assets/project-3-4.png"
+        "/my-portfolio/projects/project-3-1.png",
+        "/my-portfolio/projects/project-3-2.png",
+        "/my-portfolio/projects/project-3-3.png",
+        "/my-portfolio/projects/project-3-4.png",
+        "/my-portfolio/projects/project-3-5.png"
       ],
       techStack: ["HTML", "CSS", "ASP.NET", "SQL Server"],
       liveLink: "",
-      githubLink: "",
-      figmaLink: ""
+      githubLink: "https://github.com/tnirjala/KiranaHub",
+      figmaLink: "https://www.figma.com/proto/tFWLqA7BAjMnlzXyLLJLe8/Grocery-Shop?node-id=6-25&p=f&t=nVA2tlx1hm9YlHef-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=6%3A25"
     },
     {
       id: 4,
-      title: "Mobile App Design",
-      category: "design",
-      description: "Beautiful mobile app interface with intuitive navigation and engaging micro-interactions.",
+      title: "TutorsLinker",
+      category: "fullstack",
+      description: "A platform connecting students and parents with verified home tutors in Nepal with AI based tutor verification mechanism.",
       images: [
-        "/my-portfolio/assets/project-4-1.png"
+        "/my-portfolio/projects/project-4-1.png",
+        "/my-portfolio/projects/project-4-2.png",
+        "/my-portfolio/projects/project-4-3.png",
+        "/my-portfolio/projects/project-4-4.png",
+        "/my-portfolio/projects/project-4-5.png"
       ],
-      techStack: ["Figma", "Illustrator"],
+      techStack: [".NET Core","HTML","CSS","JS","SQL Server"],
       liveLink: "",
       githubLink: "",
-      figmaLink: "https://figma.com/example"
+      figmaLink: "https://www.figma.com/design/uKXWMjYhbzLMqq7OtwaIhU/Wireframes?node-id=0-1&t=wAcWHsZLqojm42HS-1"
     },
     {
       id: 5,
-      title: "Weather Dashboard",
-      category: "frontend",
+      title: "Zconnect-Counselling Platform",
+      category: "fullstack",
       description: "Interactive weather dashboard with real-time data visualization and location-based forecasts.",
       images: [
-        "/my-portfolio/assets/project-5-1.png",
-        "/my-portfolio/assets/project-5-2.png",
-        "/my-portfolio/assets/project-5-3.png",
-        "/my-portfolio/assets/project-5-4.png",
-        "/my-portfolio/assets/project-5-5.png"
+        "/my-portfolio/projects/project-5-1.png",
+        "/my-portfolio/projects/project-5-2.png",
+        "/my-portfolio/projects/project-5-3.png",
+        "/my-portfolio/projects/project-5-4.png",
+        "/my-portfolio/projects/project-5-5.png"
       ],
-      techStack: ["React", "API Integration", "Chart.js"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/example",
+      techStack: ["React", "Node JS", "MS SQL"],
+      liveLink: "",
+      githubLink: "https://github.com/tnirjala/zconnect_portal",
       figmaLink: ""
     },
     {
       id: 6,
-      title: "Social Media Platform",
-      category: "fullstack",
-      description: "Complete social networking platform with posts, comments, likes, and real-time messaging features.",
+      title: "Shree Pashupati Gaushala Dharamshala",
+      category: "frontend",
+      description: "Website designed to present accommodation, services and enhance user experience across devices.",
       images: [
-        "/my-portfolio/assets/project-6-1.png",
-        "/my-portfolio/assets/project-6-2.png"
+        "/my-portfolio/projects/project-6-1.png"
+        
       ],
-      techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/example",
+      techStack: ["HTML", "CSS", "JS"],
+      liveLink: "",
+      githubLink: "https://github.com/tnirjala/College_Projects/tree/master/Pashupati_Gausala_Dharamsala/Pashupati_Gaushala_Dharamsala",
       figmaLink: ""
     },
     {
       id: 7,
-      title: "Brand Identity Design",
+      title: "TabboandTatto",
       category: "design",
-      description: "Complete brand identity package including logo, color palette, typography, and brand guidelines.",
+      description: "Created a landing page to showcase brand identity elements like logo, color palette, and typography",
       images: [
-        "/my-portfolio/assets/project-7-1.png",
-        "/my-portfolio/assets/project-7-2.png",
-        "/my-portfolio/assets/project-7-3.png"
+        "/my-portfolio/projects/project-7-1.png"
+        
       ],
-      techStack: ["Illustrator", "Photoshop", "Figma"],
+      techStack: ["Photoshop", "Figma"],
       liveLink: "",
       githubLink: "",
-      figmaLink: "https://figma.com/example"
+      figmaLink: "https://www.figma.com/proto/eId8Z9pl5bRKzmmwmJnD0a/TabboandTattoo?t=IbJBa7QfPC9Vp5ku-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=2-2"
     },
     {
       id: 8,
-      title: "Recipe Finder App",
-      category: "frontend",
-      description: "Recipe discovery application with search, filters, and save favorite recipes functionality.",
+      title: "To Do List",
+      category: "design",
+      description: "UI design in progress for a To Do List app.",
       images: [
-        "/my-portfolio/assets/project-8-1.png"
+        "/my-portfolio/projects/project-8-1.png"
       ],
-      techStack: ["React", "API", "CSS3"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/example",
-      figmaLink: ""
-    },
-    {
-      id: 9,
-      title: "E-learning Platform",
-      category: "fullstack",
-      description: "Comprehensive e-learning platform with video courses, quizzes, progress tracking, and certificates.",
-      images: [
-        "/my-portfolio/assets/project-9-1.png",
-        "/my-portfolio/assets/project-9-2.png",
-        "/my-portfolio/assets/project-9-3.png"
-      ],
-      techStack: ["React", "Node.js", "PostgreSQL", "AWS"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/example",
-      figmaLink: ""
+      techStack: ["Figma"],
+      liveLink: "",
+      githubLink: "",
+      figmaLink: "https://www.figma.com/proto/1BtUVlf7T9cgxDQ7diyzRI/To--Do-List?t=ZrfKmG5iZSx4gtL9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=85-29&starting-point-node-id=18%3A39"
     }
   ];
 
